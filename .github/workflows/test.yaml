@@ -1,18 +1,10 @@
-name:test
-
+name: test
 on:
-
  push:
-
-  branches: [ main ]
-
+ branches: [ main ]
 jobs:
-
  build:
-
-  runs-on: ubuntu-latest
-
-  steps:
-
-	- uses: actions/checkout@v2
-	- run: python helloworld.py
+ runs-on: ubuntu-latest
+ steps:
+ - uses: actions/checkout@v2
+ - run: python helloworld.py
